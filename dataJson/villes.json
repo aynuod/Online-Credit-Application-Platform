@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "ville": "Tanger-Tétouan-Al Hoceïma"
+    },
+    {
+        "id": 2,
+        "ville": "l'Oriental"
+    },
+    {
+        "id": 3,
+        "ville": "Fès-Meknès"
+    },
+    {
+        "id": 4,
+        "ville": "Rabat-Salé-Kénitra"
+    },
+    {
+        "id": 5,
+        "ville": "Béni Mellal-Khénifra"
+    },
+    {
+        "id": 6,
+        "ville": "Casablanca-Settat"
+    },
+    {
+        "id": 7,
+        "ville": "Marrakech-Safi"
+    },
+    {
+        "id": 8,
+        "ville": "Drâa-Tafilalet"
+    },
+    {
+        "id": 9,
+        "ville": "Souss-Massa"
+    },
+    {
+        "id": 10,
+        "ville": "Guelmim-Oued Noun"
+    },
+    {
+        "id": 11,
+        "ville": "Laâyoune-Sakia El Hamra"
+    },
+    {
+        "id": 12,
+        "ville": "Dakhla-Oued Ed Dahab"
+    }
+]

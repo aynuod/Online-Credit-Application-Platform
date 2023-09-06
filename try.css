@@ -1,0 +1,411 @@
+
+body {
+     font-family: 'Roboto', sans-serif;
+     line-height: 1.6;
+     margin: 0;
+     padding: 0;
+     background-color: #f8f8f8;
+     color: black;
+     display: flex;
+     position: relative; /* Add position relative to the body to handle sidebar z-index */
+   }
+
+   .sidebar {
+     width: 200px;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     background-color: #f0f0f0;
+     color: #444;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding-top: 1rem;
+     transition: width 0.3s ease;
+     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+   }
+
+   /* Make the sidebar hover effect stay until user moves to another choice */
+   .sidebar a:hover,
+   .sidebar a.active {
+     background-color: #00a0e9;
+     color: white;
+   }
+
+   .sidebar a {
+     display: flex;
+     align-items: center;
+     color: #444;
+     text-decoration: none;
+     padding: 1rem;
+     font-size: 1rem;
+     transition: all 0.3s ease;
+   }
+
+   .sidebar a:hover {
+     background-color: #f0f0f0;
+     color: #00a0e9;
+   }
+
+   .sidebar a i {
+     margin-right: 0.5rem;
+   }
+
+   .sidebar .logo-container img {
+     max-width: 180px;
+   }
+
+   .container {
+     margin-left: 200px;
+     margin-top: 1rem;
+     padding: 2rem;
+   }
+
+   .card {
+     border: none;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   .card-header {
+     background-color: #00a0e9;
+     color: white;
+     text-align: center;
+     padding: 1rem;
+     font-size: 1.2rem;
+   }
+
+   .section {
+     background-color: white;
+     padding: 2rem;
+     margin-bottom: 2rem;
+   }
+
+   .btn {
+     background-color: #00a0e9;
+     color: white;
+     padding: 0.8rem 1.5rem;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+
+   .btn:hover {
+     background-color: #007bbf;
+   }
+
+   .footer {
+     background-color: #00a0e9;
+     color: white;
+     text-align: center;
+     padding: 1rem;
+   }
+
+   /* Center the submit buttons */
+   button[type="submit"] {
+     display: block;
+     margin: 0 auto;
+   }
+
+   /* Customize the submit button styles */
+   button[type="submit"] {
+     background-color: white;
+     color: #FF1100;
+     border: 2px solid #00a0e9;
+     border-radius: 4px;
+     padding: 0.8rem 1.5rem;
+     cursor: pointer;
+   }
+
+   /* Add a hover effect on the submit buttons */
+   button[type="submit"]:hover {
+     background-color: #00a0e9;
+     color: white;
+   }
+
+   .user-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .user-photo-container {
+     width: 150px;
+     height: 150px;
+     overflow: hidden;
+     margin-bottom: 15px;
+     border-radius: 50%;
+   }
+
+   .user-photo {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+
+   .change-photo-text {
+     font-size: 14px;
+     color: #666;
+     margin-top: 5px;
+   }
+
+  body {
+ font-family: 'Roboto', sans-serif;
+ line-height: 1.6;
+ margin: 0;
+ padding: 0;
+ background-color: #f8f8f8;
+ color: black;
+ display: flex;
+ position: relative;
+}
+
+.sidebar {
+ width: 200px;
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 1;
+ background-color: #f0f0f0;
+ color: #444;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding-top: 1rem;
+ transition: width 0.3s ease;
+ box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Make the sidebar hover effect stay until the user moves to another choice */
+.sidebar a:hover,
+.sidebar a.active {
+ background-color: #00a0e9;
+ color: white;
+}
+
+.sidebar a {
+ display: flex;
+ align-items: center;
+ color: #444;
+ text-decoration: none;
+ padding: 1rem;
+ font-size: 1rem;
+ transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+ background-color: #f0f0f0;
+ color: #00a0e9;
+}
+
+.sidebar a i {
+ margin-right: 0.5rem;
+}
+
+.container {
+ margin-left: 200px;
+ margin-top: 1rem;
+ padding: 2rem;
+}
+
+.card {
+ border: none;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+ background-color: #00a0e9;
+ color: white;
+ text-align: center;
+ padding: 1rem;
+ font-size: 1.2rem;
+}
+
+.section {
+ background-color: white;
+ padding: 2rem;
+ margin-bottom: 2rem;
+}
+
+.btn {
+ background-color: #00a0e9;
+ color: white;
+ padding: 0.8rem 1.5rem;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.btn:hover {
+ background-color: #007bbf;
+}
+
+.footer {
+ background-color: #00a0e9;
+ color: white;
+ text-align: center;
+ padding: 1rem;
+}
+
+/* Center the submit buttons */
+button[type="submit"] {
+ display: block;
+ margin: 0 auto;
+}
+
+/* Customize the submit button styles */
+button[type="submit"] {
+ background-color: white;
+ color: #FF1100;
+ border: 2px solid #00a0e9;
+ border-radius: 4px;
+ padding: 0.8rem 1.5rem;
+ cursor: pointer;
+}
+
+/* Add a hover effect on the submit buttons */
+button[type="submit"]:hover {
+ background-color: #00a0e9;
+ color: white;
+}
+
+.user-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.user-photo-container {
+ width: 150px;
+ height: 150px;
+ overflow: hidden;
+ margin-bottom: 15px;
+ border-radius: 50%;
+}
+
+.user-photo {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.change-photo-text {
+ font-size: 14px;
+ color: #666;
+ margin-top: 5px;
+}
+
+.user-info {
+ padding: 1rem;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ background-color: #fff;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info h2 {
+ font-size: 1.5rem;
+ margin-bottom: 1rem;
+}
+
+.user-info label {
+ font-weight: bold;
+}
+
+.user-info input[type="text"],
+.user-info input[type="email"],
+.user-info input[type="tel"],
+.user-info input[type="date"] {
+ width: 100%;
+ padding: 0.8rem;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ margin-bottom: 1rem;
+ outline: none; /* Remove the default outline on focus */
+}
+
+.user-info textarea {
+ width: 100%;
+ padding: 0.8rem;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ resize: vertical;
+ height: 100px;
+ margin-bottom: 1rem;
+ outline: none; /* Remove the default outline on focus */
+}
+
+.user-info .form-row {
+ display: flex;
+ flex-wrap: wrap;
+ margin-bottom: 1rem;
+}
+
+.user-info .form-row .col-md-6 {
+ flex: 0 0 calc(50% - 1rem);
+ margin-right: 1rem;
+}
+
+.user-info .form-row .col-md-6:last-child {
+ margin-right: 0;
+}
+
+.user-info .password-fields {
+ border-top: 1px solid #ccc;
+ padding-top: 1rem;
+}
+
+.user-info .password-fields label {
+ display: block;
+ margin-bottom: 0.5rem;
+}
+
+.user-info .password-fields input[type="password"] {
+ width: 100%;
+ padding: 0.8rem;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ margin-bottom: 1rem;
+ outline: none; /* Remove the default outline on focus */
+}
+.user-info input[type="text"],
+.user-info input[type="email"],
+.user-info input[type="tel"],
+.user-info input[type="date"],
+.user-info textarea {
+ width: 100%;
+ padding: 0.8rem;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ margin-bottom: 1rem;
+ outline: none; /* Remove the default outline on focus */
+}
+
+/* Arrange some inputs in one line */
+.user-info .form-row {
+ display: flex;
+ flex-wrap: wrap;
+ margin-bottom: 1rem;
+ align-items: center;
+}
+
+.user-info .form-row .col-md-6 {
+ flex: 0 0 calc(33.33% - 1rem); /* Show three inputs in each line */
+ margin-right: 1rem;
+}
+
+.user-info .form-row .col-md-6:last-child {
+ margin-right: 0;
+}
+
+/* Adjust the layout for smaller screens */
+@media (max-width: 768px) {
+ .user-info .form-row .col-md-6 {
+   flex: 0 0 100%;
+   margin-right: 0;
+   margin-bottom: 0.5rem; /* Add some space between the inputs on smaller screens */
+ }
+}
+

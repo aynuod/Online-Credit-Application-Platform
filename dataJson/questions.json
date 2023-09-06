@@ -1,0 +1,75 @@
+{
+    "questions": [
+      {
+        "id": "question1",
+        "question": "Quel projet souhaitez-vous simuler ?",
+        "options": [
+          {
+            "id": "option1",
+            "text": "Crédit Personnel"
+          },
+          {
+            "id": "option2",
+            "text": "Crédit Auto"
+          }
+        ]
+      },
+      {
+        "id": "question2",
+        "question": "Il s'agit d'une auto ?",
+        "options": [
+          {
+            "id": "option1",
+            "text": "Neuf"
+          },
+          {
+            "id": "option2",
+            "text": "Ancien"
+          }
+        ]
+      }
+      ,
+      {
+        "id": "question3",
+        "question": "Précisez le type d'énergie du véhicule.",
+        "options": [
+          {
+            "id": "option1",
+            "text": "Électrique, Hybride, -100gr de CO2"
+          },
+          {
+            "id": "option2",
+            "text": "Thermique"
+          }
+        ]
+      }
+      ,
+      {
+        "id": "question4",
+        "question": "Pouvez-vous préciser votre projet ?",
+        "options": [
+          {
+            "id": "option1",
+            "text": "Déco"
+          },
+          {
+            "id": "option2",
+            "text": "Voyage"
+          },
+          {
+            "id": "option3",
+            "text": "Études"
+          },
+          {
+            "id": "option4",
+            "text": "Bien être"
+          },
+          {
+            "id": "option5",
+            "text": "Autre"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,191 @@
+
+                                /* Styles for the map container */
+                                .map-container {
+                                    position: relative;
+                                    overflow: hidden;
+                                    padding-top: 56.25%; /* 16:9 aspect ratio (adjust this value as needed) */
+                                }
+                                
+                                .google-map {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                                
+                                /* Add custom CSS styles for the image */
+                                .navbar-image {
+                                    height: 65px; /* Adjust the height as needed */
+                                    object-fit: contain; /* This will maintain the aspect ratio and fit the image within the dimensions specified */
+                                }
+                                
+                                /* Optional: To center the image vertically in the navbar */
+                                .navbar-brand {
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                
+                                .carrousel {
+                                    position: relative;
+                                    width: 100%;
+                                    overflow: hidden;
+                                }
+                                
+                                .images {
+                                    display: flex;
+                                    justify-content: center;
+                                    transition: transform 1s;
+                                    position: relative;
+                                }
+                                
+                                .images img {
+                                    width: 60%;
+                                    height: auto;
+                                    border: 1.5px solid #ec592c;
+                                    display: none;
+                                    border-radius: 10px;
+                                }
+                                
+                                .images img.active {
+                                    display: block;
+                                }
+                                
+                                .arrow {
+                                    position: absolute;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                    font-size: 24px;
+                                    color: #fff;
+                                    background-color: rgba(255, 143, 143, 0.5);
+                                    width: 40px;
+                                    height: 40px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
+                                    border-radius: 50%;
+                                }
+                                
+                                .prev {
+                                    left: 10px;
+                                }
+                                
+                                .next {
+                                    right: 10px;
+                                }
+                                .copyright-text {
+                                        text-align: center;
+                                }
+                                
+                                .end-img {
+                                    width: 400px;
+                                    height: 90px;
+                                    margin-left: -100px;
+                                    object-fit: contain;
+                                }
+                                .navbar-nav .nav-link {
+                                    color: black;
+                                }
+                                .col-lg-8 {
+                                    display: flex;
+                                    justify-content: center;
+                                }
+                                /* Styles du conteneur du bouton (optionnel) */
+                                .button-container {
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-top: 20px; /* Ajuster l'espacement si nécessaire */
+                                }
+                                
+                                /* Styles du bouton */
+                                .custom-button {
+                                    width: 200px; /* Ajuster la largeur selon vos besoins */
+                                    height: 50px; /* Ajuster la hauteur selon vos besoins */
+                                    background-color: #ffffff;
+                                    color: #ff0000;
+                                    border: 2px solid #ff0000;
+                                    border-radius: 5px;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    cursor: pointer;
+                                    transition: background-color 0.3s, color 0.3s;
+                                }
+                                
+                                /* Effet de survol */
+                                .custom-button:hover {
+                                    background-color: #ff8040;
+                                    color: #ffffff;
+                                }
+                                /* CSS for the modal */
+                                .modal {
+                                    display: none;
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: rgba(0, 0, 0, 0.8);
+                                    z-index: 9999;
+                                    overflow: auto;
+                                }
+     
+                                .close {
+                                    position: absolute;
+                                    top: 15px;
+                                    right: 15px;
+                                    font-size: 25px;
+                                    font-weight: bold;
+                                    color: #333;
+                                    cursor: pointer;
+                                }
+                                
+                                .logo-container {
+                                    display: flex;
+                                    justify-content: flex-start; /* Align logo to the left */
+                                    align-items: center; /* Center logo vertically */
+                                }
+                                
+                                .logo-container img {
+                                    max-width: 150px; /* Adjust the width of the logo to your preference */
+                                    max-height: 100px; /* Adjust the height of the logo to your preference */
+                                }
+                                
+                                .simulation-content {
+                                    text-align: center; /* Center text in the container */
+                                    flex: 1;
+                                }
+                                
+                                h2 {
+                                    margin-top: 0;
+                                    font-family: system-ui;
+                                    font-size: 20px;
+                                }
+                                
+                                p {
+                                    margin-bottom: 15px;
+                                }
+                                
+                 
+                               
+                                  /* Custom CSS styles for the footer links */
+                                    .site-footer-links .site-footer-link {
+                                        color: #000000; /* Replace #000000 with your desired color (black) */
+                                    }
+                                
+                                    /* Hover effect for the footer links */
+                                    .site-footer-links .site-footer-link:hover {
+                                        color: #FFA500; /* Replace #FFA500 with your desired hover color (orange) */
+                                    }
+                                
+                                    /* Custom CSS styles for the footer links */
+                                    .site-footer-link {
+                                        color: #000000; /* Replace #000000 with your desired color (black) */
+                                        transition: color 0.3s; /* Add a smooth transition effect on hover */
+                                    }
+                                
+                                    /* Hover effect for the footer links */
+                                    .site-footer-link:hover {
+                                        color: #FFA500; /* Replace #FFA500 with your desired hover color (orange) */
+                                    }
+                                
